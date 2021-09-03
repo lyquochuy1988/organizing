@@ -94,6 +94,8 @@
     .main-quote .edit-img img {
         max-width: 400px;
         object-fit: contain;
+        margin-top: -60px;
+        margin-bottom: -60px;
     }
 }
 
