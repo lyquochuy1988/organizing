@@ -26,22 +26,16 @@
     .section-organized img {
         max-width: 100%;
     }
-
     .quote p:first-child::before {
         font-size: 160px;
     }
-
     .section-organized h2 {
         font-size: 34px;
     }
-
     .content-pages {
         padding: 100px 20px 20px 20px;
         max-width: 100%;
     }
-
-    
-
     footer {
         padding: 40px 40px;
     }
@@ -70,12 +64,9 @@
     .header .logo-svg {
         width: 90px;
     }
-
     iframe {
         width: 100%;
     }
-
-    
     footer {
         padding: 40px 20px;
         text-align: center;
@@ -101,7 +92,8 @@
         justify-content: center;
     }
     .main-quote .edit-img img {
-        width: 400px;
+        max-width: 400px;
+        object-fit: contain;
     }
 }
 
