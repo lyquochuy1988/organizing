@@ -193,6 +193,13 @@
     }
 }
 
+@media (max-width: 400px) {
+    .main-quote .edit-img img {
+        max-width: 360px;
+        object-fit: contain;
+    }
+}
+
 @media (max-width: 320px) {
     .header {
         padding: 10px;
