@@ -166,10 +166,6 @@
         display: flex;
         justify-content: center;
     }
-    .main-quote .edit-img img {
-        max-width: 460px;
-        object-fit: contain;
-    }
 }
 
 @media (max-width: 500px) {
@@ -186,17 +182,6 @@
     .main-quote .edit-img {
         display: flex;
         justify-content: center;
-    }
-    .main-quote .edit-img img {
-        max-width: 460px;
-        object-fit: contain;
-    }
-}
-
-@media (max-width: 400px) {
-    .main-quote .edit-img img {
-        max-width: 360px;
-        object-fit: contain;
     }
 }
 
