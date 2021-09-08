@@ -11,7 +11,7 @@
         z-index: 2;
         padding: 10px 100px;
         /* background-color: #ffc42f; */
-        background-color: violet;
+        background-color: var(--bg-color);
     }
     
     .header ul {
@@ -107,7 +107,7 @@
     
     .quote p:first-child::before {
         content: "“";
-        color: violet;
+        color: var(--bg-color);
         font-size: 250px;
         font-style: normal;
         font-weight: 400;
@@ -122,7 +122,7 @@
     .quote .organize-yours {
         /* font-weight: 700; */
         font-family: 'Rockwell-Bold';
-        color: violet;
+        color: var(--bg-color);
         text-shadow: 1px 1px 0 black;
     }
     
@@ -143,6 +143,7 @@
         text-align: center;
     }
     /* Organized First */
+    
     .section-organized {
         padding: 50px 0;
     }
@@ -164,7 +165,7 @@
         line-height: 1.2em;
         font-family: 'Rockwell-Bold';
         margin: 0;
-        color: violet;
+        color: var(--bg-color);
         text-shadow: 1px 1px 0 black;
     }
     
@@ -176,14 +177,14 @@
     }
     
     .download-btn {
-        background-color: violet;
+        background-color: var(--bg-color);
         color: var(--white-color);
         padding: 18px 26px;
         font-size: 16px;
         margin-top: 16px;
         display: inline-block;
     }
-
+    
     .section-organized h3 {
         font-size: 30px;
         font-weight: 800;
@@ -191,22 +192,21 @@
         line-height: 1.2em;
         font-family: 'Rockwell-Bold';
         margin: 0;
-        color: violet;
+        color: var(--bg-color);
         text-shadow: 1px 1px 0 black;
     }
-
+    
     .organized-five p {
         color: #000;
         line-height: 2em;
         text-align: justify;
         font-size: 16px;
     }
-
     /*  Content Pages */
+    
     .content-pages {
         padding: 100px 100px 20px 100px;
     }
-
     /* footer */
     
     footer {
@@ -235,7 +235,7 @@
     }
     
     footer .link-bottom a {
-        color: violet;
+        color: var(--bg-color);
         text-align: left;
         line-height: 1.2em;
         text-decoration: none;
